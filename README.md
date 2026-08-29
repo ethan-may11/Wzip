@@ -2,7 +2,7 @@
 
 A multithreaded run-length-encoding (RLE) compression tool written in C. It compresses files by collapsing runs of repeated characters, and parallelizes large inputs across worker threads using `pthread` and memory-mapped I/O.
 
-> Course project: the `wzip` assignment from *Operating Systems: Three Easy Pieces* (Arpaci-Dusseau). The implementation is entirely my own (no starter code).
+> Course project: the `wzip` assignment from *Operating Systems: Three Easy Pieces* (Arpaci-Dusseau). The implementation is my own.
 
 ## Features
 - **Run-length encoding** — compresses runs of repeated characters into a compact format: a 4-byte integer count followed by the single repeated character.
